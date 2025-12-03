@@ -1,4 +1,4 @@
-# recipe-rating-prediction
+# Recipe Rating Prediction
 
 ## Introduction
 
