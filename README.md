@@ -1,7 +1,7 @@
 # recipe-rating-prediction
 
 ## Introduction
-Have you ever wondered am I spending too much time making my recipe right now? Or maybe how can you make the best recipe possible? Whether it was the type of ingredients, the time taken to cook your recipe, the nutritional facts, what **really** determines whether or not the food is good? This project seeks to understand which factors are best correlated to the "rating" of a recipe, on a scale of 1-5, in order to determine where your priorities should lie when making a recipe.
+Have you ever wondered am I spending too much time making my recipe right now? Whether it was the type of ingredients, the time taken to cook your recipe, the nutritional facts, what **really** determines whether or not the food is good? This project seeks to understand which factors are best correlated to the "rating" of a recipe, on a scale of 1-5, in order to determine where your priorities should lie when making a recipe.
 
 Thus, this project is centered on utlimately creating a model to predict the rating of a recipe. The dataset we're working with is a merged dataset that has 234,429 rows and 17 columns. Of the 17 columns, we'll be focusing on these 4 and their impact on prediciting the rating of your recipe: **minutes, n_steps, n_ingredients, review_length**. **Minutes** details the number of minutes taken to cook the recipe, **n_steps** details the number of steps in the recipe, **n_ingredients** details the number of ingredients in the recipe, and **review_length** details the length of the review regarding the recipe.  
 
