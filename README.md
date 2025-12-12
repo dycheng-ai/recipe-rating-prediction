@@ -26,7 +26,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 |  4 | 306168 |        40 |         6 |               9 |
 
 <iframe
-  src="https://github.com/dycheng-ai/recipe-rating-prediction.git/dsc80-2025-fa/main//projects/proj04/time-plot.html"
+  src="assets/time-plot.html"
   width="900"
   height="600"
   frameborder="0"
@@ -34,7 +34,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 This plot details the distribution of minutes taken for each recipe. As the graph indicates, the bounds of the distribution are [0, 500] due to a vast majority of the data laying within these boudnaries.
 
 <iframe
-  src="https://raw.githubusercontent.com/dycheng-ai/dsc80-2025-fa/main//projects/proj04/time-n-rating.html"
+  src="assets/time-n-rating.html"
   width="900"
   height="600"
   frameborder="0"
@@ -59,6 +59,10 @@ The missinginess of the **rating** column is **NMAR** which is shown through the
 In contrast, through permutation testing for the **minutes** column, the p-value was 0.114 indicating that the observed difference of 51.45 was within the normaly range, indicating that the missingness of **ratings** is not related to the **minutes** column. 
 
 ## Hypothesis Testing
+**Null Hypothesis:** There is no relationship between a recipe's cooking time and its average rating.
+**Alternative Hypothesis:** There is a relationship between a recipe's cooking time and its average rating.
+
+The test statistic we utilized was the correlation between the average recipe rating and the minutes taken for the recipe with a significance level of 0.05. By testing this null & alternative hypothesis, we are able to determine whether or not there is a relationship or strong correlation between the minutes taken for each recipe and the recipe's rating. By understanding this, we're able to pivot and determine either what factors do influence a recipe's rating or if the null is rejected, then we can utilize the number of minutes taken for each recipe as a central component of the ratings prediction model. 
 
 ## Framing a Prediction Problem
 
