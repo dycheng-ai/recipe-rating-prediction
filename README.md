@@ -26,7 +26,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 |  4 | 306168 |        40 |         6 |               9 |
 
 <iframe
-  src="/Users/dylancheng/Desktop/dsc80-2025-fa/projects/proj04/recipes-rating-prediction/assets/time-plot.html"
+  src="assets/time-plot.html"
   width="900"
   height="600"
   frameborder="0"
@@ -34,7 +34,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 This plot details the distribution of minutes taken for each recipe. As the graph indicates, the bounds of the distribution are [0, 500] due to a vast majority of the data laying within these boudnaries.
 
 <iframe
-  src="/Users/dylancheng/Desktop/dsc80-2025-fa/projects/proj04/recipes-rating-prediction/assets/time-n-rating.html"
+  src="assets/time-n-rating.html"
   width="900"
   height="600"
   frameborder="0"
@@ -67,6 +67,9 @@ The test statistic we utilized was the correlation between the average recipe ra
 The resulting p-value was 0.272 indicating we fail to reject the null hypothesis, meaning that there is no relationship bewteen a recipe's cooking time and its average rating.
 
 ## Framing a Prediction Problem
+**Prediction Problem:** Predict ratings of recipes.
+
+Originally, I was attempting to utilize a **Linear Regression** model to predict the rating of a recipe but the models performed poorly as there was a weak correlation between any of the columns and the recipe's rating. Eventually, I chose to use a **Decision Tree Regressor** to better fit the data as it captures non-linear relationships (although the predictive model still isn't very good, it is better than when the Linear Regression model was used). 
 
 ## Baseline Model
 
