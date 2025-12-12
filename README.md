@@ -26,7 +26,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 |  4 | 306168 |        40 |         6 |               9 |
 
 <iframe
-  src="assets/time-plot.html"
+  src="/Users/dylancheng/Desktop/dsc80-2025-fa/projects/proj04/recipes-rating-prediction/assets/time-plot.html"
   width="900"
   height="600"
   frameborder="0"
@@ -34,7 +34,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 This plot details the distribution of minutes taken for each recipe. As the graph indicates, the bounds of the distribution are [0, 500] due to a vast majority of the data laying within these boudnaries.
 
 <iframe
-  src="assets/time-n-rating.html"
+  src="/Users/dylancheng/Desktop/dsc80-2025-fa/projects/proj04/recipes-rating-prediction/assets/time-n-rating.html"
   width="900"
   height="600"
   frameborder="0"
@@ -63,6 +63,8 @@ In contrast, through permutation testing for the **minutes** column, the p-value
 **Alternative Hypothesis:** There is a relationship between a recipe's cooking time and its average rating.
 
 The test statistic we utilized was the correlation between the average recipe rating and the minutes taken for the recipe with a significance level of 0.05. By testing this null & alternative hypothesis, we are able to determine whether or not there is a relationship or strong correlation between the minutes taken for each recipe and the recipe's rating. By understanding this, we're able to pivot and determine either what factors do influence a recipe's rating or if the null is rejected, then we can utilize the number of minutes taken for each recipe as a central component of the ratings prediction model. 
+
+The resulting p-value was 0.272 indicating we fail to reject the null hypothesis, meaning that there is no relationship bewteen a recipe's cooking time and its average rating.
 
 ## Framing a Prediction Problem
 
