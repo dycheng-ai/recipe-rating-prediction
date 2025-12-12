@@ -26,7 +26,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 |  4 | 306168 |        40 |         6 |               9 |
 
 <iframe
-  src="../projects/proj04/time-plot.html"
+  src="https://github.com/dycheng-ai/recipe-rating-prediction.git/dsc80-2025-fa/main//projects/proj04/time-plot.html"
   width="900"
   height="600"
   frameborder="0"
@@ -34,7 +34,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 This plot details the distribution of minutes taken for each recipe. As the graph indicates, the bounds of the distribution are [0, 500] due to a vast majority of the data laying within these boudnaries.
 
 <iframe
-  src="../projects/proj04/time-n-rating.html"
+  src="https://raw.githubusercontent.com/dycheng-ai/dsc80-2025-fa/main//projects/proj04/time-n-rating.html"
   width="900"
   height="600"
   frameborder="0"
@@ -48,9 +48,15 @@ This plot visualizes the correlation between the minutes taken for each recipe a
 |        3 |   63.0586 |
 |        4 |   57.1737 |
 |        5 |   54.7138 |
+
 The grouped table showcases how as the rating increases, the number of minutes taken for the recipe decreases.
 
 ## Assessment of Missingness
+The statistic I looked at tested whether recipes with missing ratings differ from recipes with non-missing ratings in terms of the number of minutes the recipe took (**minutes**) and how long the recipe's reviewes were (**review_length**).
+
+The missinginess of the **rating** column is **NMAR** which is shown through the permutation testing done with the new column **review_length**. Through permutation testing, the code outputted an observered difference of -56.9 with a p-value of 0.0, we reject the null indicating that the missingness of **ratings** is related to **review_length** column. 
+
+In contrast, through permutation testing for the **minutes** column, the p-value was 0.114 indicating that the observed difference of 51.45 was within the normaly range, indicating that the missingness of **ratings** is not related to the **minutes** column. 
 
 ## Hypothesis Testing
 
