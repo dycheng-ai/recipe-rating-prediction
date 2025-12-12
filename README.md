@@ -27,7 +27,7 @@ Thus, this project is centered on utlimately creating a model to predict the rat
 
 <iframe
   src="assets/time-plot.html"
-  width="900"
+  width="400"
   height="600"
   frameborder="0"
 ></iframe>
@@ -35,7 +35,7 @@ This plot details the distribution of minutes taken for each recipe. As the grap
 
 <iframe
   src="assets/time-n-rating.html"
-  width="900"
+  width="400"
   height="600"
   frameborder="0"
 ></iframe>
