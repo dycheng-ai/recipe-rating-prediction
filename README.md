@@ -1,4 +1,4 @@
-# recipe-rating-prediction
+# Recipe Rating Prediction
 
 ## Introduction
 Have you ever wondered am I spending too much time making my recipe right now? Whether it was the type of ingredients, the time taken to cook your recipe, the nutritional facts, what **really** determines whether or not the food is good? This project seeks to understand which factors are best correlated to the "rating" of a recipe, on a scale of 1-5, in order to determine where your priorities should lie when making a recipe.
